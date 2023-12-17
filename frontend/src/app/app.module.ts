@@ -22,6 +22,7 @@ import { TextInputComponent } from './components/partials/text-input/text-input.
 import { DefaultButtonComponent } from './components/partials/default-button/default-button.component';
 import { LoginPageComponent } from './components/pages/login-page/login-page.component';
 import { RegisterPageComponent } from './components/pages/register-page/register-page.component';
+import {NgxPaginationModule} from 'ngx-pagination';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { RegisterPageComponent } from './components/pages/register-page/register
   ],
   imports: [
     BrowserModule,
+    NgxPaginationModule,
     BrowserAnimationsModule,
     AppRoutingModule,
     HttpClientModule,

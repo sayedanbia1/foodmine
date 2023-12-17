@@ -88,3 +88,8 @@ ul{
     margin-top: 0.7rem;
     font-size: 1.1rem;
   }
+  .pag{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+  }

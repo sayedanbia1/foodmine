@@ -20,6 +20,8 @@ router.get("/seed", asyncHandler(
 
 router.get("/",asyncHandler(
   async (req, res) => {
+    // const PAGE_SIZE= 200;
+    // const page: number = parseInt(req.query.page as string || "0");
     const foods = await FoodModel.find();
       res.send(foods);
   }
